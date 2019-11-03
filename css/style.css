@@ -1,0 +1,154 @@
+body
+{
+	margin:0px;
+	padding: 0px;
+	background: #F5F5F5 !important;
+}
+.main-cont
+{
+	width: 90%;
+	margin:auto;
+	display: grid;
+}
+.nav-header
+{
+	display:grid;
+	grid-auto-flow: column;
+	grid-column-gap:10px;
+	width: fit-content;
+	margin:auto;
+	font-family: 'Montserrat', sans-serif;
+
+
+
+}
+.caption h2
+{
+	font-size:3.5vmax;
+}
+.caption
+{
+	width: fit-content;
+	justify-self:center;
+}
+.login-window
+{
+	width: 50%;
+	margin: auto;
+	margin-top:20px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 3px #ccc;
+	display: grid;
+	
+}
+.login-window h3
+{
+	text-align: center;
+	
+
+}
+.login-window form
+{
+	width: 70%;
+	margin: auto;
+	display: grid;
+	justify-content: center;
+	margin-bottom:10px;
+}
+.logo
+{
+	display: grid;
+    align-content: center;
+}
+.logo img
+{
+	width:50px;
+	height: auto;
+	
+}
+.txt-sml-2 {
+    height: 40px;
+    border: 0px;
+    background-color: #F2F2F2;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+    transition: all 300ms;
+}
+.attendance-window
+{
+	width: 50%;
+	margin: auto;
+	margin-top:20px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 3px #ccc;
+	display: grid;
+	
+
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	background: #F5F5F5;
+	padding: 20px;
+  }
+  
+  .title {
+	color: grey;
+	font-size: 18px;
+  }
+  
+  button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .card a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+  }
+  
+  button:hover, a:hover {
+	opacity: 0.7;
+  }
+  .usertab
+  {
+	  width: fit-content;
+	  margin-left:auto;
+	  background: transparent;
+	  margin-bottom:20px;
+  }
+  .profile-btn
+  {
+	  background:transparent;
+
+  }
+  @media only screen and (max-width: 600px)
+  {
+	  .attendance-window
+	  {
+		  width: 100%;
+	  }
+	  .login-window
+	  {
+		width: 100%;
+	  }
+
+  }
+  
