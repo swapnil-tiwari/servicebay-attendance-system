@@ -5,14 +5,15 @@
 ?>
 <html>
 <script>
-    if (window.location.href.split("auth=")[1] == 'false') {
-        alert("Wrong Credentials!");
-    }
+	if (window.location.href.split("auth=")[1] == 'false') {
+		alert("Wrong Credentials!");
+	}
 </script>
+
 <head>
-<meta name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Attendance System</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -20,8 +21,8 @@
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
 
@@ -67,24 +68,22 @@
 								</ul>
 							</div>
 				</div>
-				<div class="card">
-					<i class="fa fa-user" style="font-size:100px;"></i>
-					<!-- <img src="./img.jpg" alt="John" style="width:100%"> -->
-					<h1>Cook Shivam</h1>
-					<p class="title">Alpha 2</p>
-					<code>Cook Id:f24932</code>
-					<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a> -->
-					<br><br>
-					<p><button class="btn btn-success">Mark Attendance</button></p>
+				<div class="cooks-container">
+					'.$_SESSION['cooks'].'	
 				</div>
-			</div>';
+				</div>			
+				';
+				
+				//var_dump($_SESSION['cooks_query_result']);
+			// 	while($row = mysqli_fetch_assoc($_SESSION['cooks_query_result']))
+			// {
+			// 	var_dump($row);
+			// }
+				
 			}
 		?>
-		
-		
+
+
 
 
 
@@ -93,6 +92,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
+
 </html>

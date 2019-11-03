@@ -80,7 +80,7 @@ body
 }
 .attendance-window
 {
-	width: 50%;
+	width: 80%;
 	margin: auto;
 	margin-top:20px;
 	background: #fff;
@@ -137,6 +137,12 @@ body
   .profile-btn
   {
 	  background:transparent;
+
+  }
+  .cooks-container
+  {
+	display: grid;
+    grid-auto-flow: column;
 
   }
   @media only screen and (max-width: 600px)
