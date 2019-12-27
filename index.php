@@ -1,3 +1,4 @@
+<!-- Client Login system UI based on procedural PHP -->
 <!DOCTYPE html>
 <?php
     session_start();
